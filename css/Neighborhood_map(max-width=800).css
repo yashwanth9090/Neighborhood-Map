@@ -1,0 +1,81 @@
+html,body {
+        font-family: Arial, sans-serif;
+        height: 100%;
+}
+#map {
+    height: 95%;
+}
+.navbar {
+    display: flex;
+    background-color: #333;
+    font-family: Arial;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.nav-title {
+    color: white;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 14px 16px;
+}
+
+.dropdown {
+    float: right;
+    padding-right: 10%;
+    padding-left: 35%;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position:fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+#myInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.title{
+    font-size: 15px;
+    float: left;
+}
