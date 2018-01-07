@@ -188,6 +188,7 @@ function populateInfoWindow(marker, infowindow){
     if(infowindow.marker != marker){
         infowindow.setContent('');
         infowindow.marker = marker;
+	// marker bounces whenever it is clicked
         toggleBounce(marker);
         //Centers map to particular clicked marker
         map.setCenter(marker.position);
