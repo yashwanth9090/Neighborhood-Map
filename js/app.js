@@ -97,6 +97,7 @@ var ViewModel = function(){
     var self = this;
     //Input from dropdow list search field
     this.searchInput = ko.observable("");
+    // List to store all the markers, each marker for each location
     this.markerList = ko.observableArray([]);
     
     initialData.forEach(function(markerItem){
