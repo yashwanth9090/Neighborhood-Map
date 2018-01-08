@@ -28,3 +28,6 @@ https://developer.foursquare.com/
 https://www.w3schools.com/
 http://www.knockmeout.net/2011/04/utility-functions-in-knockoutjs.html
 http://knockoutjs.com/documentation/observableArrays.html
+
+
+To view the site on github pages go to 
