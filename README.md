@@ -30,4 +30,4 @@ http://www.knockmeout.net/2011/04/utility-functions-in-knockoutjs.html
 http://knockoutjs.com/documentation/observableArrays.html
 
 
-To view the site on github pages go to 
+To view the site on github pages go to https://yashwanthmanchikatla.github.io/Neighborhood-Map/.
