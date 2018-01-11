@@ -173,7 +173,7 @@ var marker = function(data){
     };
         
 }
-
+// Makes a marker bounce
 function toggleBounce(marker) {
         if (marker.getAnimation() !== null) {
           marker.setAnimation(null);
